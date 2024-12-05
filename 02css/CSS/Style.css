@@ -1,0 +1,34 @@
+/**Regla de estilo consta de dos partes
+1. el selector
+2. bloque de declaraciones(son los atributos que vamos a modificar)
+el atributo de valor;
+*/
+
+h1{
+    color: orange;
+    background-color: skyblue;
+}
+
+p{
+    color: midnightblue;
+    background-color: coral;
+}
+
+/*
+Existen tres tipos de selectores
+1. Etiquetas (son elementos html)
+2. Identificadores
+*/
+
+.parrafo-dos{
+    background-color: skyblue;
+    font-size: large;
+}
+
+.text-20{
+    font-size: 20px;
+}
+
+.text-32{
+    font-size: 32px;
+}
