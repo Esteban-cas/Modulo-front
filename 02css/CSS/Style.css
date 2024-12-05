@@ -32,3 +32,6 @@ Existen tres tipos de selectores
 .text-32{
     font-size: 32px;
 }
+.color{
+    color: rgb(58, 230, 10);
+}

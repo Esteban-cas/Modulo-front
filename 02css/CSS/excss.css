@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(51, 117, 241);
+}
+h1{
+    text-align: center; color: white;
+}
+button{
+    background-color: rgb(99, 187, 17); color: white; padding: 6px; border-color: lightgreen ;
+}
+.div{
+    text-align: center; color: white;
+}
