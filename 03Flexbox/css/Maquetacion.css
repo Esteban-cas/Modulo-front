@@ -1,0 +1,22 @@
+.container{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.item{
+    color: white;
+}
+
+button{
+    background-color: rgb(99, 187, 17); color: white; padding: 6px; border-color: lightgreen ;
+}
