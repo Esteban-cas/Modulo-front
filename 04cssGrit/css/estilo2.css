@@ -1,0 +1,41 @@
+.container{
+    width: 80%;
+    height: 80%;
+    background-color: dimgray;
+    border: medium solid black;
+    display: grid;
+    /*Crear grid*/
+    grid-template-rows: 10% 400px 10%;
+    grid-template-columns: 20% 1fr;
+    /*Crear areas*/
+    grid-template-areas: 
+        "header header"
+        "bar content"
+        "bar content"
+        "footer footer";
+
+}
+
+.header{
+    grid-area:header;
+}
+
+.content{
+    grid-area:content;
+}
+
+
+.bar{
+    grid-area:bar;
+}
+
+.footer{
+    grid-area:footer;
+}
+
+.item{
+    padding: 1rem;
+    font-size: 14px;
+    background-color: gray;
+    border: medium solid whitesmoke;
+}

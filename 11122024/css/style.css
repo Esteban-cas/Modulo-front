@@ -1,0 +1,21 @@
+.superior{
+    text-align: center;
+    background-color: purple;
+    color: white;
+    margin: 40px;
+    padding: 20px;
+}
+
+.FirstContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    justify-content: space-evenly;
+}
+
+.itemArtcl{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    flex-wrap: wrap;
+}

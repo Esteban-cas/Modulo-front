@@ -1,0 +1,67 @@
+body{
+    background-color: antiquewhite;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.container{
+    display: grid;
+    width: 80%;
+    height: 80%;
+    background-color: dimgray;
+    border: medium solid black;
+    margin: 0 auto;
+    /*Grit 3X3 */
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 20% 30% 50%;
+    /*Grit 4X4*/
+    grid-template-columns: 100px 50% 75px 1fr;
+    grid-template-rows: 100px 1fr 50% 75px;
+    /*Grit 5X5*/
+    grid-template-columns: repeat(7,auto);
+    grid-template-rows: repeat(7,auto);
+    /*Grit 6X6*/
+    /*Con repetición(n, 1fr) se vuelven del mismo tamaño*/
+   /* grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);*/
+
+    /*Espacio entre colums*/
+    grid-column-gap: 8px;
+    grid-row-gap: 5px;
+    gap: 3;
+}
+
+.item{
+    font-size: 14px;
+    background-color: gray;
+    border: medium solid white;
+}
+/*
+.container .item:nth-child(8){
+    Primera forma para hacer grid areas
+    color: aquamarine;
+    
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+   
+    Segunda forma de hacer areas. Primero Ancho/Largo y despues el row end/column end
+    grid-area: 2/3/4/5;
+}
+ */
+
+.container .item:nth-child(1){
+    color: aquamarine;
+    grid-area: 1/1/3/3;
+}
+
+.container .item:nth-child(2){
+    color: aquamarine;
+    grid-area: 1/3/3/5;
+}
+
+.container .item:nth-child(3){
+    color: aquamarine;
+    grid-area: 1/5/3/6;
+}
