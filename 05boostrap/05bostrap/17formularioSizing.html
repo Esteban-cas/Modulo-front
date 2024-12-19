@@ -20,21 +20,34 @@
 		<input type="email" name="email" id="email" class="form-control" placeholder="desactivado" disabled readonly>
 
 		<h2>Cajas de tipo large</h2>
-		<label for="cale" class="form-label">Calle:</label>
+		<label for="calle" class="form-label">Calle:</label>
 		<input type="text" name="calle" id="calle" class="form-control form-control-lg" placeholder="Nombre de la calle donde vives" >
-
-		<h2>Cajas de tipo small</h2>
+		<h2>Caja de tipo small</h2>
 		<label for="ciudad" class="form-label">Ciudad:</label>
-		<input type="text" name="ciudad" id="ciudad" class="form-control form-control-sm" placeholder="Nombre de la ciudad donde vives" >
+		<input type="text" name="ciudad" id="ciudad" class="form-control form-control-sm"> 
 
 		<label for="lista" class="form-label">Escribe tus pasatiempos:</label>
-		<input list="opciones" id="pasatiempos" class="for-control" placeholder="pasatiempos">
+		<input list="opciones" id="pasatiempos" class="for-control" placeholder="Pasatiempos">
+		
 		<datalist id="opciones">
-			<option value="Dormir"></option>
-			<option value="Descansar"></option>
-			<option value="Meditar"></option>
-			<option value="Pasear"></option>
+			<option value="Deportes"></option>
+			<option value="Video juegos"></option>
+			<option value="Leer"></option>
+			<option value="Ver televisión"></option>
 		</datalist>
+		
+		<h2>Grit para columnas</h2>
+		<div class="row small">
+			<div class="col-sm-6">
+				<input type="text" class="form-control" placeholder="Ciudad" id="ciudad">
+			</div>
+			<div class="col-sm-2">
+				<input type="text" class="form-control" placeholder="Estado" id="Estado">
+			</div>
+			<div class="col-sm">
+				<input type="text" class="form-control" placeholder="Codigo postal" id="codigo postal">
+			</div>
+		</div>
 	</form>
 	</div>
 </body>
